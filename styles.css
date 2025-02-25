@@ -1,0 +1,68 @@
+body {
+	background: black;
+}
+.postcard {
+	padding: 20px;
+	background: white;
+	width: 400px;
+	height: 270px;
+	margin: auto;
+	font-family: "poppins";
+}
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+}
+.postcard-header img {
+	width: auto;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	width: 100%;
+	padding-top: 20px;
+}
+.postcard-footer {
+	text-align: center;
+	justify-content: center;
+	background-color: white;
+}
+input {
+	width: 100%;
+	height: auto;
+	font-family: "poppins";
+	font-size: 16px;
+	border: none;
+	border-bottom: 1px solid gray;
+}
+button {
+	width: 50%;
+	height: 40px;
+	background-color: chocolate;
+	border-radius: 10px;
+	text-align: center;
+	border: none;
+	font-family: poppins;
+
+	&:hover {
+		background-color: rgb(159, 96, 96);
+	}
+
+	&:active {
+		background-color: aquamarine;
+	}
+}
+
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
